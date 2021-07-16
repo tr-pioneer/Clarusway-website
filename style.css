@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(53, 66, 74);
+    font-weight: bold;
+    color:white;
+    /* height: auto; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.header_right-side :last-child, .header_left-side :first-child {
+    color: violet;
+    cursor: pointer;
+}
+
+
+.header_left-side span {
+    font-size: 22px;
+}
+
+.header_left-side {
+    padding: 20px 20px 20px 30px;
+    float: left;
+}
+
+.header_right-side {
+    float: right;
+    word-spacing: 40px; 
+    font-size: 12px;
+    font-weight: normal;
+    padding: 25px 30px 20px 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li:hover {
+    cursor: pointer;
+    color: violet;
+}
+
+.sub-header {
+    background-color: rgb(53, 66, 74);
+    font-weight: bold;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 10vh;
+}
+
+.sub-header_left-side {
+    float: left;
+    padding: 25px 20px 20px 30px;
+}
+
+.sub-header_right-side {
+    float: right;
+    padding: 25px 30px 0 0;
+}
+
+.sub-header_right-side input {
+    font-size: 12px;
+    height: 22px;
+    padding-right: 40px;
+    
+}
+
+.sub-header_right-side button {
+    height: 26px;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 0;
+}
+
+.sub-header_right-side button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+main {
+    background-color: rgb(255, 251, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 510px;
+
+}
+
+.main_right {
+    float: right;
+    background-color: rgb(53, 66, 74);
+    margin: 20px 20px 0 0;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+.main_right h3 {
+    font-size:14px;
+}
+
+.main_right button {
+    height: 26px;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 0;
+}
+
+.main_right button:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main_right input, textarea {
+    width: 90%;
+    font-size: 12px;
+}
+
+.main_left {
+    float: left;
+    width: 50%;
+    font-size: 10px;
+    padding: 10px 0 0 20px;
+}
+
+.main_left h4 {
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.design, .maintenance, .hosting {
+    background-color: lightgray;
+    border: 1px solid rgb(196, 194, 194);
+    padding: 30px 30px 30px 30px;
+    margin-top: 5px;
+}
+
+.design {
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: rgb(53, 66, 74);
+    text-align: center;
+    
+}
+
+footer h5{
+    font-size: 11px;
+    color: white;
+    padding-top: 30px;
+}
+
+footer img {
+    transform: scale(0.6, 0.6);
+    -ms-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
+}
